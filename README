@@ -1,0 +1,11 @@
+#map
+python tans_map.py
+
+#birrt
+#option1:自己選擇兩點
+python birrt_final.py -p 地圖名稱
+#option2:選擇物體
+python birrt_final.py -p 地圖名稱 -s stepsize -f 終點名稱
+
+#navigation
+python load_fix.py  -f 終點名稱
